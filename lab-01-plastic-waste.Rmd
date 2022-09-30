@@ -34,7 +34,7 @@ ggplot(data = plastic_waste,
 ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap, y = continent)) +
   geom_violin()
 
-ggplot(data = plastic_waste, aes(plastic_waste_per_cap, mismanaged_plastic_waste_per_cap))+ geom_point()
+ggplot(data = plastic_waste, aes(plastic_waste_per_cap, mismanaged_plastic_waste_per_cap, colour = continent))+ geom_point()
        
 ```
 
