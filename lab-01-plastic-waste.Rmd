@@ -19,7 +19,7 @@ plastic_waste <- read_csv("data/plastic-waste.csv")
 
 ### Exercise 1
 
-*1) South America has noticeable less plastic waste than the other continents. North America, Europe and Oceania all have comparatively high plastic waste, with Africa seeming to have the highest levels. 3) Colour and Fill are both change depending on the variable they represent, whereas Alpha just changes depending on the value you assign to it 4) The violin plots make it much more apparent that it's the area we are concerned about which denotes the plastic waste. They also show how North America has much higher plastic waste in higher capita levels*
+*1) South America has noticeable less plastic waste than the other continents. North America, Europe and Oceania all have comparatively high plastic waste, with Africa seeming to have the highest levels. 3) Colour and Fill are both change depending on the variable they represent, whereas Alpha just changes depending on the value you assign to it 4) The violin plots make it much more apparent that it's the area we are concerned about which denotes the plastic waste. They also show how North America has much higher plastic waste in higher capita levels. 6) Africa and Asia seem to have much higher levels of plastic waste mismanagement, but lower overall levels of plastic wase, whereas euope and north america have higher levels of waste but better management of that data*
 
 ```{r plastic-waste-continent}
 ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
